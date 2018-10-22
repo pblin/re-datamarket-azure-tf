@@ -1,0 +1,99 @@
+[
+  {
+    "additionalCapabilities": null,
+    "availabilitySet": null,
+    "diagnosticsProfile": {
+      "bootDiagnostics": {
+        "enabled": true,
+        "storageUri": "https://rebloctriale2ffd87ee3.blob.core.windows.net/"
+      }
+    },
+    "hardwareProfile": {
+      "vmSize": "Standard_DC2s"
+    },
+    "id": "/subscriptions/e86c475b-9cad-4026-b008-7c1efaded92f/resourceGroups/REBLOC-BERLIN/providers/Microsoft.Compute/virtualMachines/rebloc-trial",
+    "identity": null,
+    "instanceView": null,
+    "licenseType": null,
+    "location": "eastus",
+    "name": "rebloc-trial",
+    "networkProfile": {
+      "networkInterfaces": [
+        {
+          "id": "/subscriptions/e86c475b-9cad-4026-b008-7c1efaded92f/resourceGroups/rebloc-berlin/providers/Microsoft.Network/networkInterfaces/rebloc-trial-nic",
+          "primary": null,
+          "resourceGroup": "rebloc-berlin"
+        }
+      ]
+    },
+    "osProfile": {
+      "adminPassword": null,
+      "adminUsername": "berlin",
+      "allowExtensionOperations": true,
+      "computerName": "rebloc-trial",
+      "customData": null,
+      "linuxConfiguration": {
+        "disablePasswordAuthentication": false,
+        "provisionVmAgent": true,
+        "ssh": null
+      },
+      "secrets": [],
+      "windowsConfiguration": null
+    },
+    "plan": null,
+    "provisioningState": "Succeeded",
+    "resourceGroup": "REBLOC-BERLIN",
+    "resources": [
+      {
+        "autoUpgradeMinorVersion": null,
+        "forceUpdateTag": null,
+        "id": "/subscriptions/e86c475b-9cad-4026-b008-7c1efaded92f/resourceGroups/REBLOC-BERLIN/providers/Microsoft.Compute/virtualMachines/rebloc-trial/extensions/validate",
+        "instanceView": null,
+        "location": null,
+        "name": null,
+        "protectedSettings": null,
+        "provisioningState": null,
+        "publisher": null,
+        "resourceGroup": "REBLOC-BERLIN",
+        "settings": null,
+        "tags": null,
+        "type": null,
+        "typeHandlerVersion": null,
+        "virtualMachineExtensionType": null
+      }
+    ],
+    "storageProfile": {
+      "dataDisks": [],
+      "imageReference": {
+        "id": null,
+        "offer": "confidential-compute-preview",
+        "publisher": "Canonical",
+        "sku": "16.04-LTS",
+        "version": "latest"
+      },
+      "osDisk": {
+        "caching": "ReadWrite",
+        "createOption": "FromImage",
+        "diffDiskSettings": null,
+        "diskSizeGb": null,
+        "encryptionSettings": null,
+        "image": null,
+        "managedDisk": {
+          "id": "/subscriptions/e86c475b-9cad-4026-b008-7c1efaded92f/resourceGroups/REBLOC-BERLIN/providers/Microsoft.Compute/disks/rebloc-trial_OsDisk_1_6368815e0b744a39a7596ce373d3fe40",
+          "resourceGroup": "REBLOC-BERLIN",
+          "storageAccountType": null
+        },
+        "name": "rebloc-trial_OsDisk_1_6368815e0b744a39a7596ce373d3fe40",
+        "osType": "Linux",
+        "vhd": null,
+        "writeAcceleratorEnabled": null
+      }
+    },
+    "tags": {
+      "creationSource": "oe-engine-rebloc-trial"
+    },
+    "type": "Microsoft.Compute/virtualMachines",
+    "vmId": "38e07994-2e6b-406b-ae98-465e8e7fe9ad",
+    "zones": null
+  }
+]
