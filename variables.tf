@@ -1,11 +1,3 @@
-variable "image_name" {
-  description = "The name of the existing Golden Image"
-}
-
-variable "image_resource_group" {
-  description = "The name of the Resource Group where the Golden Image is located."
-}
-
 variable "prefix" {
   description = "The prefix used for any resources used, must be an alphanumberic string"
 }
